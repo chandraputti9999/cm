@@ -1,0 +1,10 @@
+﻿
+' Enter employee info and click on create expense report
+
+
+Sub EnterEmployeeInfo_ClickonCreateExpenseReport(EmpMail,EmpNo)
+  
+ 
+  
+End Sub
+

@@ -1,0 +1,47 @@
+﻿Sub Test1
+  Dim expenseIt9
+  Dim createExpenseReportDialogBox
+  Dim dataGrid
+  Dim textBox
+  Dim dataGridCell
+  Set expenseIt9 = Aliases.ExpenseIt9
+  Set createExpenseReportDialogBox = expenseIt9.HwndSource_CreateExpenseReportDialogBox.CreateExpenseReportDialogBox
+  Call createExpenseReportDialogBox.addExpenseButton.ClickButton
+  Set dataGrid = createExpenseReportDialogBox.expenseDataGrid1
+  Call dataGrid.ClickCellXY(5, "Expense type", 146, 14)
+  Set textBox = dataGrid.TextBox
+  Call textBox.SetText("Grocery")
+  Call dataGrid.ClickCellXY(5, "Description", 107, 15)
+  Call dataGrid.ClickCellXY(5, "Description", 107, 15)
+  Call textBox.SetText("Grocery")
+  Call dataGrid.ClickCellXY(5, "Cost", 69, 14)
+  Set dataGridCell = dataGrid.Datagridcell0
+  Call dataGridCell.Keys("1")
+  Call dataGridCell.TextBox.SetText("10")
+  Call createExpenseReportDialogBox.ButtonOk.ClickButton
+  Call expenseIt9.dlgExpenseItStandalone.btnOK.ClickButton
+End Sub
+
+
+set datatable=Sys.Process("ExpenseIt9").WPFObject("HwndSource: CreateExpenseReportDialogBox", "Create Expense Report").WPFObject("CreateExpenseReportDialogBox", "Create Expense Report", 1).WPFObject("Grid", "", 1).WPFObject("Grid", "", 1).WPFObject("Rectangle", "", 2)
+
+
+
+Sub Test2
+  Dim dataGrid
+  Set dataGrid = Aliases.ExpenseIt9.HwndSource_CreateExpenseReportDialogBox.CreateExpenseReportDialogBox.expenseDataGrid1
+  dataGrid.FindAll()
+  Call dataGrid.ClickCellXY(0, "Expense type", 54, 12)
+  Call dataGrid.ClickCellXY(0, "Description", 74, 16)
+  Call dataGrid.ClickCellXY(0, "Cost", 206, 11)
+End Sub
+
+
+Sub Test3
+  Dim dataGrid
+  Set dataGrid = Aliases.ExpenseIt9.HwndSource_CreateExpenseReportDialogBox.CreateExpenseReportDialogBox.expenseDataGrid1
+  Call dataGrid.ClickCellXY(2, "Expense type", 93, 12)
+  Call dataGrid.ClickCellXY(1, "Expense type", 76, 12)
+  Call dataGrid.ClickCellXY(1, "Description", 60, 14)
+  Call dataGrid.ClickCellXY(1, "Cost", 154, 16)
+End Sub

@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root Signature="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}" NameMappingVersion="7" SaveImages="0">
+	<Storages Current="0">
+		<Child Name="Default Configuration" />
+	</Storages>
+	<Nodes Name="NameMapping" Key="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Children>
+			<Child Name="Sys" Key="{242A4520-8336-43F9-A60F-38402A6265B9}">
+				<Properties>
+					<Property Name="Name">
+						<Value Value="Sys" />
+					</Property>
+				</Properties>
+				<Children>
+					<Child Name="explorer" Key="{858BBE5C-9010-4E1C-88F7-7057EE4AD6B8}">
+						<Properties>
+							<Property Name="ProcessName">
+								<Value Value="explorer" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="wndShell_TrayWnd" Key="{F19DB32B-15F0-47BC-A585-BCF9895E64FE}">
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="Shell_TrayWnd" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="DesktopWindowXamlSource" Key="{CC7D2683-7395-49F2-B06A-61D0201A7ED8}">
+										<TypeInfo Item0="{3EAFBAE5-F1BD-4C28-82B6-1F2BBADF2412}" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="Windows.UI.Composition.DesktopWindowContentBridge" />
+											</Property>
+											<Property Name="WndCaption">
+												<Value Value="DesktopWindowXamlSource" />
+											</Property>
+										</Properties>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+					<Child Name="ExpenseIt9" Key="{4FB062F2-19C7-44B5-B630-200E250D522D}">
+						<Properties>
+							<Property Name="ProcessName">
+								<Value Value="ExpenseIt9" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="HwndSource_MainWindow" Key="{1A780AD4-4755-400A-A7FE-D854282A007D}">
+								<Image FileName="1508683888" Left="0" Top="0" Right="600" Bottom="340" />
+								<Properties>
+									<Property Name="RootVisual.ClrClassName">
+										<Value Value="MainWindow" />
+									</Property>
+									<Property Name="WndCaption">
+										<Value Value="ExpenseIt Standalone" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="MainWindow" Key="{E6C8E1A4-BCA4-4707-AA1A-10B4C8575C02}">
+										<Image FileName="1508683888" Left="9" Top="38" Right="610" Bottom="378" />
+										<Properties>
+											<Property Name="ClrFullClassName">
+												<Value Value="ExpenseItDemo.MainWindow" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="emailTextBox" Key="{88891A49-F37C-4E5E-991D-D8C3E3057A23}" ExtendedFind="True">
+												<Image FileName="1508683888" Left="327" Top="72" Right="579" Bottom="103" />
+												<TypeInfo Item0="{B5BDBD4B-07B3-42D8-908B-878667A610BE}" />
+												<Properties>
+													<Property Name="WPFControlName">
+														<Value Value="emailTextBox" />
+													</Property>
+												</Properties>
+											</Child>
+											<Child Name="employeeNumberTextBox" Key="{C4C7ED26-92D1-4D43-9730-467D7107FD89}" ExtendedFind="True">
+												<Image FileName="-1089279326" Left="327" Top="108" Right="579" Bottom="138" />
+												<TypeInfo Item0="{B5BDBD4B-07B3-42D8-908B-878667A610BE}" />
+												<Properties>
+													<Property Name="WPFControlName">
+														<Value Value="employeeNumberTextBox" />
+													</Property>
+												</Properties>
+											</Child>
+											<Child Name="costCenterTextBox" Key="{E333FD2A-DC69-403D-8BC7-0D9A34C99F6A}" ExtendedFind="True">
+												<Image FileName="-2092006239" Left="327" Top="144" Right="579" Bottom="174" />
+												<TypeInfo Item0="{B117FE9F-4A73-4170-8C4E-4E271EE28BCC}" />
+												<Properties>
+													<Property Name="WPFControlName">
+														<Value Value="costCenterTextBox" />
+													</Property>
+												</Properties>
+											</Child>
+											<Child Name="employeeTypeRadioButtons" Key="{F9BA3E2E-B5CE-4552-B412-9E91A2F43CDD}" ExtendedFind="True">
+												<Image FileName="-895822939" Left="327" Top="173" Right="585" Bottom="210" />
+												<Properties>
+													<Property Name="WPFControlName">
+														<Value Value="employeeTypeRadioButtons" />
+													</Property>
+												</Properties>
+											</Child>
+											<Child Name="ListBox" Key="{A4F7AF41-96ED-4758-88AB-D906CDB3BC6E}" ExtendedFind="True">
+												<Image FileName="315421986" Left="327" Top="215" Right="579" Bottom="296" />
+												<Properties>
+													<Property Name="ClrFullClassName">
+														<Value Value="System.Windows.Controls.ListBox" />
+													</Property>
+													<Property Name="WPFControlOrdinalNo">
+														<Value Value="2" Type="0" />
+													</Property>
+												</Properties>
+											</Child>
+											<Child Name="createExpenseReportButton" Key="{33BCA087-EF84-400E-9EE0-4465AA166008}" ExtendedFind="True">
+												<Image FileName="-765974217" Left="327" Top="307" Right="579" Bottom="336" />
+												<TypeInfo Item0="{B376333F-6DF5-43F3-B984-5865022B0E04}" />
+												<Properties>
+													<Property Name="WPFControlName">
+														<Value Value="createExpenseReportButton" />
+													</Property>
+												</Properties>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="HwndSource_CreateExpenseReportDialogBox" Key="{6EF78877-E786-495B-A93F-D6E9CA4E55F1}">
+								<Image FileName="-539170293" Left="0" Top="0" Right="971" Bottom="625" />
+								<Properties>
+									<Property Name="RootVisual.ClrClassName">
+										<Value Value="CreateExpenseReportDialogBox" />
+									</Property>
+									<Property Name="WndCaption">
+										<Value Value="Create Expense Report" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="CreateExpenseReportDialogBox" Key="{16C3166A-D906-4F9D-944B-0B63DA80556F}">
+										<Image FileName="-539170293" Left="9" Top="38" Right="980" Bottom="664" />
+										<Properties>
+											<Property Name="ClrFullClassName">
+												<Value Value="ExpenseItDemo.CreateExpenseReportDialogBox" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="addExpenseButton" Key="{A49DF639-24FE-4CE1-927D-FBA5A4E19DEA}" ExtendedFind="True">
+												<Image FileName="-539170293" Left="796" Top="179" Right="950" Bottom="208" />
+												<TypeInfo Item0="{B376333F-6DF5-43F3-B984-5865022B0E04}" />
+												<Properties>
+													<Property Name="WPFControlName">
+														<Value Value="addExpenseButton" />
+													</Property>
+												</Properties>
+											</Child>
+											<Child Name="expenseDataGrid1" Key="{ECA604E7-1FEB-48D2-8CE7-2F7708357273}" ExtendedFind="True">
+												<Image FileName="-1446989307" Left="27" Top="186" Right="778" Bottom="485" />
+												<Properties>
+													<Property Name="WPFControlName">
+														<Value Value="expenseDataGrid1" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="TextBox" Key="{A0153862-907A-4926-985C-DD61F1B1ED63}" ExtendedFind="True">
+														<Image FileName="1872445770" Left="30" Top="329" Right="276" Bottom="350" />
+														<TypeInfo Item0="{B5BDBD4B-07B3-42D8-908B-878667A610BE}" />
+														<Properties>
+															<Property Name="ClrFullClassName">
+																<Value Value="System.Windows.Controls.TextBox" />
+															</Property>
+														</Properties>
+													</Child>
+													<Child Name="Datagridcell0" Key="{19A2788A-47BE-4B5D-81D3-E48B6F1661A5}" ExtendedFind="True">
+														<Image FileName="1452974009" Left="527" Top="327" Right="777" Bottom="352" />
+														<TypeInfo Item0="{1A619792-911D-43CD-AB05-926DB2E1432C}" />
+														<Properties>
+															<Property Name="ClrFullClassName">
+																<Value Value="System.Windows.Controls.DataGridCell" />
+															</Property>
+															<Property Name="WPFControlText">
+																<Value Value="0" />
+															</Property>
+														</Properties>
+														<Children>
+															<Child Name="TextBox" Key="{3994CB11-82B1-4FD3-8EC3-1E73018DF071}" ExtendedFind="True">
+																<Image FileName="179506571" Left="528" Top="329" Right="775" Bottom="350" />
+																<TypeInfo Item0="{B5BDBD4B-07B3-42D8-908B-878667A610BE}" />
+																<Properties>
+																	<Property Name="ClrFullClassName">
+																		<Value Value="System.Windows.Controls.TextBox" />
+																	</Property>
+																</Properties>
+															</Child>
+														</Children>
+													</Child>
+												</Children>
+											</Child>
+											<Child Name="ButtonOk" Key="{8FF3E49B-F83E-445C-8DB3-0DE4F471262F}" ExtendedFind="True">
+												<Image FileName="1127086737" Left="742" Top="576" Right="843" Bottom="604" />
+												<TypeInfo Item0="{B376333F-6DF5-43F3-B984-5865022B0E04}" />
+												<Properties>
+													<Property Name="ClrFullClassName">
+														<Value Value="System.Windows.Controls.Button" />
+													</Property>
+													<Property Name="WPFControlText">
+														<Value Value="_OK" />
+													</Property>
+												</Properties>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="dlgExpenseItStandalone" Key="{CA18E023-C728-47EF-95C2-0AD5FEF98496}">
+								<Image FileName="1253305005" Left="0" Top="0" Right="288" Bottom="216" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="#32770" />
+									</Property>
+									<Property Name="WndCaption">
+										<Value Value="ExpenseIt Standalone" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="btnOK" Key="{09D9974B-B705-446A-BCE9-B4584575E85D}">
+										<Image FileName="1253305005" Left="157" Top="159" Right="257" Bottom="192" />
+										<TypeInfo Item0="{46DC970C-4F9C-4951-A4DA-685DD32806EC}" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="Button" />
+											</Property>
+											<Property Name="WndCaption">
+												<Value Value="OK" />
+											</Property>
+										</Properties>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+				</Children>
+			</Child>
+		</Children>
+	</Nodes>
+	<LogicalNodes Name="Aliases" Owner="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Child Name="explorer" Owner="{858BBE5C-9010-4E1C-88F7-7057EE4AD6B8}">
+			<Child Name="wndShell_TrayWnd" Owner="{F19DB32B-15F0-47BC-A585-BCF9895E64FE}">
+				<Child Name="DesktopWindowXamlSource" Owner="{CC7D2683-7395-49F2-B06A-61D0201A7ED8}" />
+			</Child>
+		</Child>
+		<Child Name="ExpenseIt9" Owner="{4FB062F2-19C7-44B5-B630-200E250D522D}">
+			<Child Name="HwndSource_MainWindow" Owner="{1A780AD4-4755-400A-A7FE-D854282A007D}">
+				<Child Name="MainWindow" Owner="{E6C8E1A4-BCA4-4707-AA1A-10B4C8575C02}">
+					<Child Name="emailTextBox" Owner="{88891A49-F37C-4E5E-991D-D8C3E3057A23}" />
+					<Child Name="employeeNumberTextBox" Owner="{C4C7ED26-92D1-4D43-9730-467D7107FD89}" />
+					<Child Name="costCenterTextBox" Owner="{E333FD2A-DC69-403D-8BC7-0D9A34C99F6A}" />
+					<Child Name="employeeTypeRadioButtons" Owner="{F9BA3E2E-B5CE-4552-B412-9E91A2F43CDD}" />
+					<Child Name="ListBox" Owner="{A4F7AF41-96ED-4758-88AB-D906CDB3BC6E}" />
+					<Child Name="createExpenseReportButton" Owner="{33BCA087-EF84-400E-9EE0-4465AA166008}" />
+				</Child>
+			</Child>
+			<Child Name="HwndSource_CreateExpenseReportDialogBox" Owner="{6EF78877-E786-495B-A93F-D6E9CA4E55F1}">
+				<Child Name="CreateExpenseReportDialogBox" Owner="{16C3166A-D906-4F9D-944B-0B63DA80556F}">
+					<Child Name="addExpenseButton" Owner="{A49DF639-24FE-4CE1-927D-FBA5A4E19DEA}" />
+					<Child Name="expenseDataGrid1" Owner="{ECA604E7-1FEB-48D2-8CE7-2F7708357273}">
+						<Child Name="TextBox" Owner="{A0153862-907A-4926-985C-DD61F1B1ED63}" />
+						<Child Name="Datagridcell0" Owner="{19A2788A-47BE-4B5D-81D3-E48B6F1661A5}">
+							<Child Name="TextBox" Owner="{3994CB11-82B1-4FD3-8EC3-1E73018DF071}" />
+						</Child>
+					</Child>
+					<Child Name="ButtonOk" Owner="{8FF3E49B-F83E-445C-8DB3-0DE4F471262F}" />
+				</Child>
+			</Child>
+			<Child Name="dlgExpenseItStandalone" Owner="{CA18E023-C728-47EF-95C2-0AD5FEF98496}">
+				<Child Name="btnOK" Owner="{09D9974B-B705-446A-BCE9-B4584575E85D}" />
+			</Child>
+		</Child>
+	</LogicalNodes>
+</Root>
