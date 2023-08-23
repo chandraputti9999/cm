@@ -1,0 +1,27 @@
+﻿
+' Enter employee info and click on create expense report
+
+
+
+Sub EnterEmployeeInfo_ClickonCreateExpenseReport()
+  Dim expenseIt9
+  Dim mainWindow
+  Dim textBox
+  Dim createExpenseReportDialogBox
+  Set expenseIt9 = Aliases.ExpenseIt9
+  Set mainWindow = expenseIt9.HwndSource_MainWindow.MainWindow
+  Set textBox = mainWindow.emailTextBox
+  Call textBox.Click(191, 12)
+  Call textBox.Drag(191, 12, -219, 4)
+  Call textBox.SetText("chandra@gmail.com")
+  Set textBox = mainWindow.employeeNumberTextBox
+  Call textBox.Drag(58, 6, -78, 4)
+  Call textBox.SetText("10000")
+  Call mainWindow.employeeTypeRadioButtons.ClickItem("CSG")
+  Call mainWindow.ListBox.ClickItem(0)
+  Call mainWindow.createExpenseReportButton.ClickButton
+  Set createExpenseReportDialogBox = expenseIt9.HwndSource_CreateExpenseReportDialogBox.CreateExpenseReportDialogBox
+  Call createExpenseReportDialogBox.addExpenseButton.ClickButton
+  Call createExpenseReportDialogBox.ButtonOk.ClickButton
+  Call expenseIt9.dlgExpenseItStandalone.btnOK.ClickButton
+End Sub

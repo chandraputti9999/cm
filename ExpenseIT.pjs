@@ -2,12 +2,10 @@
 <Root signature="{24B6FA0B-0143-461A-9758-AEB9E9A9428B}" version="15.0" key="{2C2463A0-49BE-4984-87C8-A19412BC5F03}">
 	<children>
 		<child name="ExpenseIt" key="{5090EED3-88CF-485E-8956-AEF0E4D5935C}" path="ExpenseIt\ExpenseIt.mds" />
-		<child name="ExpenseIt_1" key="{41733DFA-BF6E-43A3-BCE6-A73550A5F732}" path="ExpenseIt_1\ExpenseIt_1.mds" />
 	</children>
 	<testItems key="{CAD22E14-57B5-4D6A-8A59-C6317501ACD4}">
 		<children>
 			<testItem key="{5090EED3-88CF-485E-8956-AEF0E4D5935C}" enabled="True" timeout="0" stopOnError="True" description="" />
-			<testItem key="{41733DFA-BF6E-43A3-BCE6-A73550A5F732}" enabled="True" timeout="0" stopOnError="True" description="" />
 		</children>
 	</testItems>
 	<variables key="{92E40337-D910-46E8-BC7B-53EC6612FBE0}" />

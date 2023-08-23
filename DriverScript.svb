@@ -1,0 +1,6 @@
+﻿'USEUNIT ApplicationSpecificFunctions
+Sub test()
+
+call EnterEmployeeInfo_ClickonCreateExpenseReport()
+  
+End Sub

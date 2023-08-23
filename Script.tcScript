@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{9252F941-DB23-4FCA-AA50-858B33BB4A19}" version="11.40">
+	<children>
+		<child name="ApplicationSpecificFunctions" key="{024DA4CD-8C9F-4A60-B4D5-19D8FFAD634D}" path="ApplicationSpecificFunctions.svb" />
+		<child name="DriverScript" key="{775D873E-F1DD-4D97-A377-B765A2B796D2}" path="DriverScript.svb" />
+		<child name="AddExpense" key="{4DF3A565-2A1F-4D0D-B3FD-EEAE394B1E71}" path="AddExpense.svb" />
+	</children>
+</Root>
